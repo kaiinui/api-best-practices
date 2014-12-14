@@ -8,7 +8,7 @@ api-best-practices
 ### Content-Type
 
 - API は Accept-Content-Type に応じた Content-Type でレスポンスを返却すべきである。
-  - よく用いられるのは `application/json`, `application/javascript` (JSONP), `application/x-msgpack`, `application/x-plist` 等
+  - よく用いられるのは `application/json`, `application/javascript` (JSONP), `application/x-msgpack`, `application/octet-stream` (Protocol Buffers, Thrift), `application/x-plist` (Binary Property List) 等
 
 ### Entity Representation
 
